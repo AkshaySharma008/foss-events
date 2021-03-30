@@ -1,0 +1,33 @@
+{
+  "name": "foss-events",
+  "version": "1.0.0",
+  "description": "foss event website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naman360/foss-events.git"
+  },
+  "keywords": [
+    "foss-events"
+  ],
+  "author": "servermonk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naman360/foss-events/issues"
+  },
+  "homepage": "https://github.com/naman360/foss-events#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "shortid": "^2.2.15"
+  }
+}
